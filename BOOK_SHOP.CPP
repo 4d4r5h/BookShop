@@ -8,7 +8,7 @@ int l=0, count=3, position;
 fstream User;
 fstream Account;
 
-// below structure deals with username & password
+// below structure deals with username and password
 struct user
 {
     char name[40];
@@ -16,7 +16,7 @@ struct user
     char prem;
 } obj;
 
-// below class deals with  user's account
+// below class deals with user's account
 class account
 {
 public:
